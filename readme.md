@@ -17,7 +17,7 @@
 
 ---
 
-## 📖 Overview
+## 1. Overview
 
 HRStack is a **SaaS** Human Resource Management System designed to help organizations manage their workforce from a centralized platform.
 
@@ -27,39 +27,39 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [📖 Overview](#-overview)
-- [✨ Current Features](#-current-features)
-    - [🔐 Authentication & Security](#-authentication--security)
-    - [👥 User Management](#-user-management)
-    - [🏢 Multi-Tenant Architecture](#-multi-tenant-architecture)
-    - [📧 Email Services](#-email-services)
-    - [☁️ Cloud Media Management](#️-cloud-media-management)
-    - [🗄 Database](#-database)
-    - [⚡ Infrastructure](#-infrastructure)
-    - [📚 API Documentation](#-api-documentation)
-- [🛠 Technology Stack](#-technology-stack)
-- [📂 Project Structure](#-project-structure)
-- [🏗 Architecture](#-architecture)
-- [🔐 Authentication Flow](#-authentication-flow)
-- [🏢 Multi-Tenancy](#-multi-tenancy)
-- [🗄 Database Migration](#-database-migration)
-- [☁️ Cloudinary Integration](#️-cloudinary-integration)
-- [⚡ Redis](#-redis)
-- [📨 RabbitMQ](#-rabbitmq)
-- [🐳 Docker](#-docker)
-- [🚀 Getting Started](#-getting-started)
-- [📖 API Documentation](#-api-documentation-1)
-- [📌 Implemented Modules](#-implemented-modules)
-- [🚀 Roadmap](#-roadmap)
-- [🧱 Development Principles](#-development-principles)
-- [👩‍💻 Author](#-author)
-- [📄 License](#-license)
+1. [Overview](#-overview)
+2. [Current Features](#-current-features)
+    - [Authentication & Security](#-authentication--security)
+    - [User Management](#-user-management)
+    - [Multi-Tenant Architecture](#-multi-tenant-architecture)
+    - [Email Services](#-email-services)
+    - [Cloud Media Management](#️-cloud-media-management)
+    - [Database](#-database)
+    - [Infrastructure](#-infrastructure)
+    - [API Documentation](#-api-documentation)
+3. [Technology Stack](#-technology-stack)
+4. [Project Structure](#-project-structure)
+5. [Architecture](#-architecture)
+6. [Authentication Flow](#-authentication-flow)
+7. [Multi-Tenancy](#-multi-tenancy)
+8. [Database Migration](#-database-migration)
+9. [Cloudinary Integration](#️-cloudinary-integration)
+10. [Redis](#-redis)
+11. [RabbitMQ](#-rabbitmq)
+12. [Docker](#-docker)
+13. [Getting Started](#-getting-started)
+14. [API Documentation](#-api-documentation-1)
+15. [Implemented Modules](#-implemented-modules)
+16. [Roadmap](#-roadmap)
+17. [Development Principles](#-development-principles)
+18. [Authors](#-authors)
+19. [License](#-license)
 
-# ✨ Current Features
+# 2. Current Features
 
-## 🔐 Authentication & Security
+## Authentication & Security
 
 - Secure User Registration
 - User Login
@@ -72,7 +72,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## 👥 User Management
+## User Management
 
 - User Registration
 - User Authentication
@@ -84,7 +84,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## 🏢 Multi-Tenant Architecture
+## Multi-Tenant Architecture
 
 - Tenant-aware request processing
 - ThreadLocal Tenant Context
@@ -93,7 +93,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## 📧 Email Services
+## Email Services
 
 - HTML Email Templates
 - Thymeleaf Email Rendering
@@ -103,7 +103,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## ☁️ Cloud Media Management
+## Cloud Media Management
 
 - Cloudinary Integration
 - Secure Image Upload
@@ -113,7 +113,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## 🗄 Database
+## Database
 
 - PostgreSQL
 - Flyway Database Migrations
@@ -122,7 +122,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## ⚡ Infrastructure
+## Infrastructure
 
 - Redis Integration
 - RabbitMQ Integration
@@ -131,14 +131,14 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 - OpenAPI 3
 - Swagger UI
 
 ---
 
-# 🛠 Technology Stack
+# 3. Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -164,7 +164,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-# 📂 Project Structure
+# 4. Project Structure
 
 ```text
 HRStack
@@ -207,7 +207,7 @@ HRStack
 
 ---
 
-# 🏗 Architecture
+# 5. Architecture
 
 ```text
                    Client
@@ -251,7 +251,7 @@ HRStack
 
 ---
 
-# 🔐 Authentication Flow
+# 6. Authentication Flow
 
 ```text
 User Registration
@@ -274,7 +274,7 @@ Refresh Token
 
 ---
 
-# 🏢 Multi-Tenancy
+# 7. Multi-Tenancy
 
 HRStack follows a **tenant-per-organization** model.
 
@@ -289,7 +289,7 @@ This provides:
 
 ---
 
-# 🗄 Database Migration
+# 8. Database Migration
 
 Database schema management is handled using **Flyway**.
 
@@ -311,7 +311,7 @@ Flyway automatically applies pending migrations during application startup.
 
 ---
 
-# ☁️ Cloudinary Integration
+# 9. Cloudinary Integration
 
 HRStack uses **Cloudinary** for cloud-based media storage.
 
@@ -325,7 +325,7 @@ Current capabilities include:
 
 ---
 
-# ⚡ Redis
+# 10. Redis
 
 Redis is used for high-speed, in-memory data storage.
 
@@ -337,7 +337,7 @@ Current use cases include:
 
 ---
 
-# 📨 RabbitMQ
+# 11. RabbitMQ
 
 RabbitMQ is integrated to support asynchronous processing.
 
@@ -350,7 +350,7 @@ Current and planned use cases include:
 
 ---
 
-# 🐳 Docker
+# 12. Docker
 
 Docker Compose provisions all required development services.
 
@@ -374,7 +374,7 @@ docker compose down
 
 ---
 
-# 🚀 Getting Started
+# 13. Getting Started
 
 ## Clone the Repository
 
@@ -439,7 +439,7 @@ mvn spring-boot:run
 
 ---
 
-# 📖 API Documentation
+# 14. API Documentation
 
 After starting the application, visit:
 
@@ -449,7 +449,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-# 📌 Implemented Modules
+# 15. Implemented Modules
 
 | Module | Status |
 |----------|:------:|
@@ -472,14 +472,14 @@ http://localhost:8080/swagger-ui/index.html
 | Swagger Documentation | ✅ |
 | Employee Management | 🚧 In Progress |
 | Leave Management | 🚧 In Progress |
-| Departments | 🚧 Planned |
-| Attendance | 🚧 Planned |
-| Performance Management | 🚧 Planned |
+| Departments | 🚧 In Progress |
+| Attendance | 🚧 In Progress |
+| Performance Management | 🚧 In Progress |
 | Payroll | 📅 Planned |
 
 ---
 
-# 🚀 Roadmap
+# 16. Roadmap
 
 Upcoming features include:
 
@@ -501,7 +501,7 @@ Upcoming features include:
 
 ---
 
-# 🧱 Development Principles
+# 17. Development Principles
 
 HRStack is built around modern backend engineering practices:
 
@@ -522,7 +522,7 @@ HRStack is built around modern backend engineering practices:
 
 ---
 
-## 💻 Authors
+## 18. Authors
 
 **Grace O. Olubiyi, Ayodeji B. Igbinlola & Precious A. Adeleye**
 
@@ -546,7 +546,7 @@ Backend Java Developers
 
 ---
 
-# 📄 License
+# 19. License
 
 This project is currently under active development as part of a portfolio and learning journey. A formal open-source license will be added in a future release.
 
