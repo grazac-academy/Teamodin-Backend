@@ -17,7 +17,7 @@
 
 ---
 
-## 1. Overview
+# Overview
 
 HRStack is a **SaaS** Human Resource Management System designed to help organizations manage their workforce from a centralized platform.
 
@@ -29,35 +29,56 @@ The project is being developed with scalability, maintainability, and security i
 
 ## Table of Contents
 
-1. [Overview](#-overview)
-2. [Current Features](#-current-features)
-    - [Authentication & Security](#-authentication--security)
-    - [User Management](#-user-management)
-    - [Multi-Tenant Architecture](#-multi-tenant-architecture)
-    - [Email Services](#-email-services)
-    - [Cloud Media Management](#️-cloud-media-management)
-    - [Database](#-database)
-    - [Infrastructure](#-infrastructure)
-    - [API Documentation](#-api-documentation)
-3. [Technology Stack](#-technology-stack)
-4. [Project Structure](#-project-structure)
-5. [Architecture](#-architecture)
-6. [Authentication Flow](#-authentication-flow)
-7. [Multi-Tenancy](#-multi-tenancy)
-8. [Database Migration](#-database-migration)
-9. [Cloudinary Integration](#️-cloudinary-integration)
-10. [Redis](#-redis)
-11. [RabbitMQ](#-rabbitmq)
-12. [Docker](#-docker)
-13. [Getting Started](#-getting-started)
-14. [API Documentation](#-api-documentation-1)
-15. [Implemented Modules](#-implemented-modules)
-16. [Roadmap](#-roadmap)
-17. [Development Principles](#-development-principles)
-18. [Authors](#-authors)
-19. [License](#-license)
+<details open>
+<summary>Click to expand/collapse</summary>
 
-# 2. Current Features
+- [Overview](#overview)
+
+- [Current Features](#current-features)
+   - [Authentication & Security](#authentication--security)
+   - [User Management](#user-management)
+   - [Multi-Tenant Architecture](#multi-tenant-architecture)
+   - [Email Services](#email-services)
+   - [Cloud Media Management](#cloud-media-management)
+   - [Database](#database)
+   - [Infrastructure](#infrastructure)
+   - [API Documentation](#api-documentation)
+
+- [Technology Stack](#technology-stack)
+
+- [Project Structure](#project-structure)
+
+- [Architecture](#architecture)
+
+- [Authentication Flow](#authentication-flow)
+
+- [Multi-Tenancy](#multi-tenancy)
+
+- [Database Migration](#database-migration)
+
+- [Cloudinary Integration](#cloudinary-integration)
+
+- [Redis](#redis)
+
+- [RabbitMQ](#rabbitmq)
+
+- [Docker](#docker)
+
+- [Getting Started](#getting-started)
+
+- [Implemented Modules](#implemented-modules)
+
+- [Roadmap](#roadmap)
+
+- [Development Principles](#development-principles)
+
+- [Authors](#authors)
+
+- [License](#license)
+
+</details>
+
+# Current Features
 
 ## Authentication & Security
 
@@ -138,7 +159,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-# 3. Technology Stack
+# Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -164,7 +185,7 @@ The project is being developed with scalability, maintainability, and security i
 
 ---
 
-# 4. Project Structure
+# Project Structure
 
 ```text
 HRStack
@@ -207,7 +228,7 @@ HRStack
 
 ---
 
-# 5. Architecture
+# Architecture
 
 ```text
                    Client
@@ -251,7 +272,7 @@ HRStack
 
 ---
 
-# 6. Authentication Flow
+# Authentication Flow
 
 ```text
 User Registration
@@ -274,7 +295,7 @@ Refresh Token
 
 ---
 
-# 7. Multi-Tenancy
+# Multi-Tenancy
 
 HRStack follows a **tenant-per-organization** model.
 
@@ -289,7 +310,7 @@ This provides:
 
 ---
 
-# 8. Database Migration
+# Database Migration
 
 Database schema management is handled using **Flyway**.
 
@@ -311,7 +332,7 @@ Flyway automatically applies pending migrations during application startup.
 
 ---
 
-# 9. Cloudinary Integration
+# Cloudinary Integration
 
 HRStack uses **Cloudinary** for cloud-based media storage.
 
@@ -325,7 +346,7 @@ Current capabilities include:
 
 ---
 
-# 10. Redis
+# Redis
 
 Redis is used for high-speed, in-memory data storage.
 
@@ -337,7 +358,7 @@ Current use cases include:
 
 ---
 
-# 11. RabbitMQ
+# RabbitMQ
 
 RabbitMQ is integrated to support asynchronous processing.
 
@@ -350,7 +371,7 @@ Current and planned use cases include:
 
 ---
 
-# 12. Docker
+# Docker
 
 Docker Compose provisions all required development services.
 
@@ -374,7 +395,7 @@ docker compose down
 
 ---
 
-# 13. Getting Started
+# Getting Started
 
 ## Clone the Repository
 
@@ -439,7 +460,7 @@ mvn spring-boot:run
 
 ---
 
-# 14. API Documentation
+# API Documentation
 
 After starting the application, visit:
 
@@ -449,7 +470,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-# 15. Implemented Modules
+# Implemented Modules
 
 | Module | Status |
 |----------|:------:|
@@ -479,7 +500,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-# 16. Roadmap
+# Roadmap
 
 Upcoming features include:
 
@@ -501,7 +522,7 @@ Upcoming features include:
 
 ---
 
-# 17. Development Principles
+# Development Principles
 
 HRStack is built around modern backend engineering practices:
 
@@ -520,9 +541,7 @@ HRStack is built around modern backend engineering practices:
 
 ---
 
----
-
-## 18. Authors
+# Authors
 
 **Grace O. Olubiyi, Ayodeji B. Igbinlola & Precious A. Adeleye**
 
@@ -546,7 +565,7 @@ Backend Java Developers
 
 ---
 
-# 19. License
+# License
 
 This project is currently under active development as part of a portfolio and learning journey. A formal open-source license will be added in a future release.
 
